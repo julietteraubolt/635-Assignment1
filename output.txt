@@ -1,0 +1,139 @@
+K-Nearest Neighbors
+Accuracy: 95.61%
+Precision: 93.06%
+Recall: 100.00%
+F1-score: 96.40%
+Confusion Matrix:
+[[42  5]
+ [ 0 67]]
+
+Decision Tree
+Accuracy: 91.23%
+Precision: 95.24%
+Recall: 89.55%
+F1-score: 92.31%
+Confusion Matrix:
+[[44  3]
+ [ 7 60]]
+
+Random Forest
+Accuracy: 96.49%
+Precision: 98.46%
+Recall: 95.52%
+F1-score: 96.97%
+Confusion Matrix:
+[[46  1]
+ [ 3 64]]
+
+Ablation Study
+K-Nearest Neighbors (n_neighbors=3)
+Accuracy: 91.23%
+Precision: 93.85%
+Recall: 91.04%
+F1-score: 92.42%
+Confusion Matrix:
+[[43  4]
+ [ 6 61]]
+K-Nearest Neighbors (n_neighbors=7)
+Accuracy: 94.74%
+Precision: 95.52%
+Recall: 95.52%
+F1-score: 95.52%
+Confusion Matrix:
+[[44  3]
+ [ 3 64]]
+
+Decision Tree (max_depth=3)
+Accuracy: 96.49%
+Precision: 95.65%
+Recall: 98.51%
+Confusion Matrix:
+[[44  3]
+ [ 1 66]]
+
+Decision Tree (max_depth=5)
+Accuracy: 94.74%
+Precision: 95.52%
+Recall: 95.52%
+F1-score: 95.52%
+Confusion Matrix:
+[[44  3]
+ [ 3 64]]
+
+Decision Tree (max_depth=10)
+Accuracy: 91.23%
+Precision: 95.24%
+Recall: 89.55%
+F1-score: 92.31%
+Confusion Matrix:
+[[44  3]
+ [ 7 60]]
+
+Random Forest (max_depth=3)
+Accuracy: 96.49%
+Precision: 97.01%
+Recall: 97.01%
+F1-score: 97.01%
+Confusion Matrix:
+[[45  2]
+ [ 2 65]]
+
+Random Forest (max_depth=5)
+Accuracy: 95.61%
+Precision: 96.97%
+Recall: 95.52%
+F1-score: 96.24%
+Confusion Matrix:
+[[45  2]
+ [ 3 64]]
+
+Random Forest (max_depth=10)
+Accuracy: 96.49%
+Precision: 97.01%
+Recall: 97.01%
+F1-score: 97.01%
+Confusion Matrix:
+[[45  2]
+ [ 2 65]]
+
+Random Forest (min_samples_split=2)
+Accuracy: 95.61%
+Precision: 96.97%
+Recall: 95.52%
+F1-score: 96.24%
+Confusion Matrix:
+[[45  2]
+ [ 3 64]]
+
+Random Forest (min_samples_split=5)
+Accuracy: 95.61%
+Precision: 96.97%
+Recall: 95.52%
+F1-score: 96.24%
+Confusion Matrix:
+[[45  2]
+ [ 3 64]]
+
+Random Forest (min_samples_split=10)
+Accuracy: 95.61%
+Precision: 96.97%
+Recall: 95.52%
+F1-score: 96.24%
+Confusion Matrix:
+[[45  2]
+ [ 3 64]]
+                            Accuracy  Precision      Recall   F1-score
+KNN (k=5)                  95.614035  93.055556  100.000000  96.402878
+KNN (k=3)                  91.228070  93.846154   91.044776  92.424242
+KNN (k=7)                  94.736842  95.522388   95.522388  95.522388
+Decision Tree (default)    91.228070  95.238095   89.552239  92.307692
+DT (max_depth=3)           96.491228  95.652174   98.507463  97.058824
+DT (max_depth=5)           94.736842  95.522388   95.522388  95.522388
+DT (max_depth=10)          91.228070  95.238095   89.552239  92.307692
+Random Forest (default)    96.491228  98.461538   95.522388  96.969697
+RF (max_depth=3)           96.491228  97.014925   97.014925  97.014925
+RF (max_depth=5)           95.614035  96.969697   95.522388  96.240602
+RF (max_depth=10)          96.491228  97.014925   97.014925  97.014925
+RF (min_samples_split=2)   95.614035  96.969697   95.522388  96.240602
+RF (min_samples_split=5)   95.614035  96.969697   95.522388  96.240602
+RF (min_samples_split=10)  95.614035  96.969697   95.522388  96.240602
